@@ -12,8 +12,8 @@ class Solution{
 
     int height(tree* root){
         //Base Condition
-        if(root==NULL){
-            return 0;
+        if(root->left==NULL && root->right==NULL){
+            return 1;
         }
 
         //Hypothesis - Thinking of one step lower

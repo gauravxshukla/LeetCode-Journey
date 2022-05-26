@@ -9,7 +9,6 @@ All other sub-arrays of size 3 have averages less than 4 (the threshold).
 */
 
 
-
 #include<bits/stdc++.h>
 using namespace std;
 

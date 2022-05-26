@@ -50,11 +50,11 @@ using namespace std;
         return;
     }
 
-    void oneton(int n){
+    void one_to_n(int n){
         if(n==0)    return;
 
         cout<<n<<" ";
-        oneton(n-1);
+        one_to_n(n-1);
     
         return;
     }
